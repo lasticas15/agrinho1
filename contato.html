@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Campagro</title>
+
+		<link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <header>
+            <section class="principal container">
+                <div class="container__caixa">
+                 <nav>
+                    <ul>    
+                      
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                     
+                    </ul>
+                 </nav>
+        
+                </div>
+            </section>
+            </header>
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</main>
+
+        <footer class="rodape">
+            <img src="img/logo-camp.png" alt="Logo da Agropecuária" class="rodape_logo">
+            <ul class="rodape_lista">
+                <li class="lista_link">
+                    <a href="#">Idioma</a>
+                </li>
+                <li class="lista_link">
+                    <a href="#">Dispositivos compatíveis</a>
+                </li>
+                <li class="lista_link">
+                    <a href="#">Contrato de assinatura</a>
+                </li>
+                <li class="lista_link">
+               <a href="#">Política de provacidade</a>
+                </li>
+                <li class="lista_link">
+                    <a href="#">Proteção de dados no Brasil</a>
+                </li>
+                <li class="lista_link">
+                    <a href="#">Anúncio personalizado</a>
+                </li>
+                <li class="lista_link">
+                    <a href="#">Ajuda</a>
+                </li>
+            </ul>
+                <p class="rodape_texto">® 2023 Campagro. Todos os direitos reservados. 
+                    Serviço de assinatura gratúita. Conteúdo sujeito a disponibilidade.</p>
+                
+                    <p class="rodape_texto">Campagro é um serviço gratúito, baseado em assinatura e sujeito a termos e condições. 
+                        Campagro é um site dedicado a orientar pessoas sobre o plantio e colheita de alimentos, promovendo a sustentabilidade e a autonomia alimentar através de informações precisas e acessíveis.
+                        Av. João XXIII, Mercedes - PR, (45) 98840-0734, Brasil. </p>
+                        
+                    </footer>
+	</body>
+</html>
+		
